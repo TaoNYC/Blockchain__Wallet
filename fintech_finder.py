@@ -5,7 +5,7 @@
 # customer in order to do the following:
 
 # * Generate a new Ethereum account instance by using your mnemonic seed phrase
-# (which you created earlier in the module).
+# (which you created earlier in the module)
 
 # * Fetch and display the account balance associated with your Ethereum account
 # address.

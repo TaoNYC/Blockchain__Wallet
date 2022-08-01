@@ -1,17 +1,15 @@
-# blockchain_wallet
+# Blockchain_Wallet
 
 
-This Python/steamlit application is to build a blockchain-based ledger system, complete with a user-friendly web interface. This ledger allows partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
+This Python/steamlit application is to let its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them.
 
-The application works by building basic PyChain ledger structure and Create additional user input areas in the Streamlit application collecting the relevant information for each financial record that you’ll store in the PyChain ledger.
- 
+The application works by using two Python files: fintech_finder.py (contains the code associated with the web interface of the application compatible with the Streamlit library) and crypto_wallet.py containing all the Ethereum transaction functions
 
  
 ---
 
 ## Technologies
-This project leverages python 3.7 +, pandas, streamlit
-
+This project leverages python 3.7 +, streamlit,
 
 ---
 
@@ -19,24 +17,24 @@ This project leverages python 3.7 +, pandas, streamlit
 
 Before running the application, first make sure below libaries are installed
 
-You would also need to sign up free tire account with AWS with most services first 30 days free
-
 ```python
-  pip install pandas
-
+  pip install streamlit
 ```
 
 ---
 
 ## Usage
 
-Step 1: Create a Record Data Class
+Step 1: Import Ethereum Transaction Functions into the Fintech Finder Application
 
-<img width="768" alt="image" src="https://user-images.githubusercontent.com/99616004/180671589-eeaa0b53-1100-44db-aaad-5a1a73f755ec.png">
+<img width="982" alt="image" src="https://user-images.githubusercontent.com/99616004/182052682-4fe31adc-a27a-4238-95f1-9b4dd314b932.png">
+
+Step 2: Sign and Execute a Payment Transaction
+
+<img width="973" alt="image" src="https://user-images.githubusercontent.com/99616004/182052854-6844ac38-83a9-4266-a83b-7024dd515480.png">
 
 
-
-Step 2: hire one persona and send wage via Ganache accounts 
+Step 3: Inspect the Transaction: hire one persona and send wage via Ganache accounts 
 
 <img width="1211" alt="image" src="https://user-images.githubusercontent.com/99616004/181830196-7c9c7a7a-fe5b-4a6a-879c-a06ebed1e418.png">
 
@@ -45,22 +43,15 @@ Step 2: hire one persona and send wage via Ganache accounts
 <img width="1495" alt="image" src="https://user-images.githubusercontent.com/99616004/181830620-0b819550-0624-4a2c-8794-3fe5dd7eec38.png">
 
 
-Step 3:  show candidate's new balance in eth
+Step 4:  show candidate's new balance in ether
 
 <img width="329" alt="image" src="https://user-images.githubusercontent.com/99616004/181833910-6438c7be-0fa5-4ef2-863d-48e68e3b9d12.png">
-
-Step 4:  Test the PyChain Ledger by Storing Records
-
-Please refer to Video_demo from the repository
-
-
 
 
 
 Conclution: 
 
-Python and Streamlit prove to be simple yet powerful tool to build simple blockchain ledge which can be used to transfer money and record traction details accurately on the block chain and can be verified. 
-
+Python and Streamlit prove to be simple yet powerful tool to build a webstie which can be used to hire professionals, transfer money and record traction details accurately on the block chain which can be verified. 
 
 
 ## Contributors
